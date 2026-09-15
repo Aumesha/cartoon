@@ -1,0 +1,39 @@
+# Build and outputs
+.build-outputs/
+*.apk
+*.aab
+build/
+**/build/
+app/build/
+dist/
+coverage/
+
+# Gradle
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+
+# Android Studio & IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties
+.cxx/
+captures/
+.externalNativeBuild/
+
+# Dependencies
+node_modules/
+
+# OS and Logs
+.DS_Store
+*.log
+Thumbs.db
+
+# Secrets and environment
+.env*
+!.env.example
+debug.keystore.base64
+
